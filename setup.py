@@ -18,8 +18,8 @@ tensorflow=1.3
 
 setup(name='flower_classif',
       setup_requires=['setuptools_scm'],
-      use_scm_version={'write_to': 'MLP_from_scratch/version.txt'},
-      description="package with MLP coded from numpy",
+      use_scm_version={'write_to': 'flower_classif/version.txt'},
+      description="fine tuning of InceptionV3 for flower classif",
       packages=find_packages(),
       test_suite = 'tests',
       # include_package_data: to install data from MANIFEST.in
