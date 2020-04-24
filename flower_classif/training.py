@@ -53,8 +53,6 @@ def raw_generator_with_label_from_tar(tar_fn, files, labels):
 def batch_generator(items, batch_size):
     """
     Batch generator that yields items in batches of size batch_size.
-    There's no need to shuffle input items, just chop them into batches.
-    Remember about the last batch that can be smaller than batch_size!
     Input: any iterable (list, generator, ...).
         In case of generator you can pass through your items only once!
     Output: In output yield each batch as a list of items.
